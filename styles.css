@@ -1,4 +1,4 @@
-body{
+body {
   background: linear-gradient(black, grey);
   height: 1080px;
 }
@@ -11,24 +11,22 @@ body{
   padding-left: 150px;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-  
-  }
-  
-
-#profile{
-    width: 25%;
-    margin-top: 100px;
-    border-radius: 50%;
 }
 
-#photo{
-    width:300px;
-    border-radius:50%;
-    border: 10px;
-    box-shadow: 0 0 50px #f8f9fa;
-    
+#profile {
+  width: 25%;
+  margin-top: 100px;
+  border-radius: 50%;
 }
-#position{
+
+#photo {
+  width: 300px;
+  border-radius: 50%;
+  border: 10px;
+  box-shadow: 0 0 50px #f8f9fa;
+}
+
+#position {
   padding-left: 600px;
   margin-top: -175px;
   color: white;
@@ -36,3 +34,29 @@ body{
   font-size: 40px;
   font-family: "Orbitron", sans-serif;
 }
+
+.hover-effect {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  transition: text-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  text-shadow: 0 0 10px rgb(255, 255, 253),
+               0 0 20px rgb(255, 255, 255),
+               0 0 30px rgb(255, 255, 255);
+}
+
+.social-icon {
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icon:hover {
+  filter: drop-shadow(0 0 15px rgba(255, 255, 253))
+          drop-shadow(0 0 30px rgba(255, 255, 253));
+  transform: scale(1.1);
+}
+
+
