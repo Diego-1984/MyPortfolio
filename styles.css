@@ -1,0 +1,38 @@
+body{
+  background: linear-gradient(black, grey);
+  height: 1080px;
+}
+
+#name {
+  display: flex;
+  width: 75%;
+  color: white;
+  font-size: 125px;
+  padding-left: 150px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  
+  }
+  
+
+#profile{
+    width: 25%;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+#photo{
+    width:300px;
+    border-radius:50%;
+    border: 10px;
+    box-shadow: 0 0 50px #f8f9fa;
+    
+}
+#position{
+  padding-left: 600px;
+  margin-top: -175px;
+  color: white;
+  display: flex;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+}
