@@ -38,7 +38,7 @@
       <div class="container" style="justify-content: center">
         <div class="row">
           <div class="colum">
-            <!-- Enlace de LinkedIn -->
+            <!-- Link LinkedIn -->
             <a href="https://www.linkedin.com/in/diegomenor" target="_blank"
               style="color: transparent;">
               <img src="images/linkedin.png" class="social-icon"
@@ -46,7 +46,7 @@
                 alt="LinkedIn">
             </a>
 
-            <!-- Enlace de GitHub -->
+            <!-- Link GitHub -->
             <a href="https://github.com/Diego-1984" target="_blank">
               <img src="images/github.png" class="social-icon"
                 style="width: 50px; margin-left: 20px; margin-top: 15px;"
@@ -69,11 +69,19 @@
 
             </div>
             <div class="colum" id="position">Software developer</div>
+            <!-- Buttons -->
             <div class="container"
               style="justify-content:center; display: flex; margin-left: 210px; margin-top: 50px;">
-              <button class="Btn">
+              <button class="Btn" id="resumeButton">
                 My resume
               </button>
+              <script>
+                
+                document.getElementById("resumeButton").addEventListener("click", function () {
+                  window.location.href = "resume.html";
+                });
+              </script>
+              
               <button class="Btn" style="margin-left: 20px; ">
                 Programming
               </button>
