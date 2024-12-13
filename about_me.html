@@ -28,8 +28,21 @@
   </head>
 
   <body>
-    <div class="container"> <h1>About me</h1></div>
-    <div class="container" style="color: white;">
+    <div class="container" style="margin-top: 10px"><h1>About me</h1></div>
+    <div
+      class="container"
+      style="
+        color: white;
+        line-height: 30px;
+        font-size: large;
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;       
+        margin-bottom: 20px;
+      "
+    >
       As a software developer with experience at Derichebourg Aeronautic
       Services, I have worked on key projects that require a combination of
       strong technical skills and a deep understanding of quality standards in
@@ -51,6 +64,17 @@
       coupled with my ability to communicate eectively in English and
       collaborate in multidisciplinary teams, position me as an ideal candidate
       to contribute to the success of projects at Airbus.
+    </div>
+    <div class="container">
+      <div class="container" style="justify-content: center; display: flex;">
+        <button class="Btn" id= "sobremiButton" style="width: auto; padding: 30px;">
+          Versión en español
+      </button>
+      <script>
+          document.getElementById("sobremiButton").addEventListener("click", function () {
+              window.location.href = "sobre_mi.html";
+          });
+      </script>
     </div>
   </body>
 </html>
