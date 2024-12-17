@@ -71,3 +71,32 @@ body {
     drop-shadow(0 0 30px rgba(255, 255, 253));
   transform: scale(1.1);
 }
+
+.previous-button {
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+}
+
+.previous-button:hover {
+  filter: drop-shadow(0 0 15px rgba(255, 255, 253))
+    drop-shadow(0 0 30px rgba(255, 255, 253));
+  transform: scale(1.1);
+}
+
+.next-button {
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+}
+
+.next-button:hover {
+  filter: drop-shadow(0 0 15px rgba(255, 255, 253))
+    drop-shadow(0 0 30px rgba(255, 255, 253));
+  transform: scale(1.1);
+}
+.img-fluid {
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;  
+}
+
+.img-fluid:hover {
+  filter: drop-shadow(0 0 15px rgba(255, 255, 253))
+    drop-shadow(0 0 30px rgba(255, 255, 253));
+  transform: scale(1.1);
+}

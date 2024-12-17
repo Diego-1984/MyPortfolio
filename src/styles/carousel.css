@@ -6,6 +6,7 @@
   height: 140px;
   margin: 40px auto;
   perspective: 1000px;
+  margin-top: -30px;
 }
 
 .carousel {
